@@ -1,0 +1,21 @@
+<section class="direction-dialog">
+    <div class="header-dialog">
+        <h3 class="title-dialog">Escolha onde baixar</h3>
+    </div>
+
+    <section >
+        <app-button 
+        [directionUrl]="urlAppBaberAppStore" 
+        [title]="appStore" 
+        [srcImg]=imgAppStore
+        [isBlank]="isBlank">
+        </app-button>
+    
+        <app-button
+        [directionUrl]="urlAppBaberPlayStore" 
+        [title]="playStore" 
+        [srcImg]=imgPlayStore
+        [isBlank]="isBlank">
+        </app-button>
+    </section>
+</section>

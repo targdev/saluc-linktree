@@ -1,0 +1,30 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 100%;
+  height: 2rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0.1rem;
+
+  color: #ffff;
+  background: #ffffff1a;
+  border: 1.5px solid #00000080;
+
+  &:hover{
+    filter: brightness(.5);
+    border: 1px solid #fff;
+  }
+
+  .title {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding-right: 0.5rem;
+  }
+}
+
+img {
+  height: 1.5rem;
+  padding: 0 0.9rem 0 0.6rem;
+}

@@ -1,0 +1,16 @@
+section.direction-dialog {
+    background: #1f1f1f;
+    width: 10rem;
+    padding: 0 0.5rem 0.2rem;
+}
+
+.header-dialog {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.4rem 0 0.6rem;
+
+    .title-dialog {
+        font-size: 0.6rem;
+        color: #fff;
+    }
+}

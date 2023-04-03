@@ -1,0 +1,38 @@
+<section class="home">
+    <section class="card">
+        <img class="saluc-logo" src="../../assets/saluc-logo.png" alt="Logo da barbearia representada no site.">
+
+        <div class="info">
+            <h3>SALUC BARBEARIA</h3>
+        </div>
+        
+        <button
+        (click)="openDialog()">
+        <img src="{{ imgAppBarber }}">
+        <p class="title">
+            {{ appBarber }}
+        </p>
+        </button>
+
+        <app-button 
+        [directionUrl]="urlContatoWhatsApp" 
+        [title]="contatoWhatsApp" 
+        [srcImg]=imgContatoWhatsApp
+        [isBlank]="isBlank">
+        </app-button>
+
+        <app-button 
+        [directionUrl]="urlContatoAcamedyWhatsApp" 
+        [title]="contatoAcamedyWhatsApp" 
+        [srcImg]=imgContatoWhatsApp
+        [isBlank]="isBlank">
+        </app-button>
+
+        <app-button 
+        [directionUrl]="urlLocalizacao" 
+        [title]="localizacao" 
+        [srcImg]=imgLocalizacao
+        [isBlank]="isBlank">
+        </app-button>
+    </section>
+</section>
